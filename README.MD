@@ -7,10 +7,9 @@ The project implements:
 
 A custom Perceptron (M-P neuron) model
 A Logistic Regression model using scikit-learn
+
 📂 Dataset
-
 The dataset used in this project:
-
 File: churn.csv
 Contains customer-related features and a churn indicator
 The target column is automatically detected (case-insensitive search for "churn")
@@ -26,6 +25,7 @@ Logistic Regression
 Performance metrics:
 Classification Report (Precision, Recall, F1-score)
 ROC-AUC Score
+
 🧠 Models Used
 1. Perceptron (Custom Implementation)
 Implements a basic neural model (M-P neuron)
@@ -34,6 +34,7 @@ Trained using iterative weight updates
 2. Logistic Regression
 Uses sigmoid function for probability estimation
 Handles class imbalance using class_weight="balanced"
+
 🚀 How to Run the Project
 1. Clone the Repository
 git clone https://github.com/your-username/customer-churn.git
@@ -42,6 +43,7 @@ cd customer-churn
 pip install numpy pandas scikit-learn
 3. Run the Script
 python churn_prediction.py
+
 📊 Output
 
 The script prints:
@@ -54,6 +56,7 @@ ROC-AUC score
 Logistic Regression Results
 Classification report
 ROC-AUC score
+
 🛠️ Technologies Used
 Python 🐍
 NumPy
